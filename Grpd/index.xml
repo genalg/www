@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>23</fr:day>
+    </fr:date>
+    <fr:uri>https://genalg.info/Grpd/</fr:uri>
+    <fr:display-uri>Grpd</fr:display-uri>
+    <fr:route>/Grpd/</fr:route>
+    <fr:title text="Groupoids (\mathfrak {Grpd})">Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>)</fr:title>
+    <fr:taxon>GAT</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>23</fr:day>
+        </fr:date>
+        <fr:uri>https://genalg.info/Grpd.sig</fr:uri>
+        <fr:display-uri>Grpd.sig</fr:display-uri>
+        <fr:route>/Grpd.sig</fr:route>
+        <fr:title text="GAT signature: Groupoids (\mathfrak {Grpd})">GAT signature: Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>)</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>The GAT <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex> is given by the signature
+<html:ul style="list-style-type:'▷  ';list-style-position: inside;">
+<html:li style="list-style-type:'◇';list-style-position: outside;" />
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {U}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;0\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;1\;\mathsf {U}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;1\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}1\;@\;0\;@\;0\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;2\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;3\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}4\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}5\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}6\;@\;4\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;3\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}4\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}3\;@\;2\;@\;1\;@\;1\;@\;\lparen {}4\;@\;1\rparen {}\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}5\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}4\;@\;2\;@\;2\;@\;1\;@\;0\;@\;\lparen {}5\;@\;2\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}8\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}9\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}10\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;6\;@\;4\;@\;3\;@\;0\;@\;\lparen {}9\;@\;6\;@\;5\;@\;4\;@\;1\;@\;2\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;6\;@\;5\;@\;3\;@\;\lparen {}9\;@\;5\;@\;4\;@\;3\;@\;0\;@\;1\rparen {}\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}7\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}8\;@\;1\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}8\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;2\;@\;1\;@\;2\;@\;\lparen {}3\;@\;2\;@\;1\;@\;0\rparen {}\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}8\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;9\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}9\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}8\;@\;1\;@\;2\;@\;1\;@\;0\;@\;\lparen {}4\;@\;2\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;1\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+</html:ul></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>23</fr:day>
+        </fr:date>
+        <fr:uri>https://genalg.info/Grpd.alg</fr:uri>
+        <fr:display-uri>Grpd.alg</fr:display-uri>
+        <fr:route>/Grpd.alg</fr:route>
+        <fr:title text="Groupoids (\mathfrak {Grpd}{\operatorname -}\mathsf {Alg})">Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom} \colon  \mathsf {Obj} \to  \mathsf {Obj} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id} \colon  \lparen {}X \colon  \mathsf {Obj}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;Y\;Z \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Hom}\;X\;Z]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {lunit} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;\lparen {}\mathsf {id}\;Y\rparen {}\;f\;=\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {runit} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;f\;\lparen {}\mathsf {id}\;X\rparen {}\;=\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc} \colon  \{W \;X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e \colon  \mathsf {Hom}\;W\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g \colon  \mathsf {Hom}\;Y\;Z\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;g\;\lparen {}\mathsf {comp}\;f\;e\rparen {}\;=\;\mathsf {comp}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}\;e]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Hom}\;Y\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {linv} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;\lparen {}\mathsf {inv}\;f\rparen {}\;f\;=\;\mathsf {id}\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {rinv} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;f\;\lparen {}\mathsf {inv}\;f\rparen {}\;=\;\mathsf {id}\;Y]]></fr:tex></html:li></html:ul></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>23</fr:day>
+        </fr:date>
+        <fr:uri>https://genalg.info/Grpd.hom</fr:uri>
+        <fr:display-uri>Grpd.hom</fr:display-uri>
+        <fr:route>/Grpd.hom</fr:route>
+        <fr:title text="Functors (Homomorphisms of Groupoids;\mathfrak {Grpd}{\operatorname -}\mathsf {Hom})">Functors (Homomorphisms of Groupoids;<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {Obj}_0, \mathsf {Hom}_0, \mathsf {id}_0, \ldots )]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {Obj}_1, \mathsf {Hom}_1, \mathsf {id}_1, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  M} \colon  \mathsf {Obj}_0 \to  \mathsf {Obj}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  M} \colon  \{X \;Y \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}_0\;X\;Y \to  \mathsf {Hom}_1\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;X\rparen {}\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;Y\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  M} \colon  \{X \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {id}_0\;X\rparen {}\;=\;\mathsf {id}_1\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  M} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}_0\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}_0\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {comp}_0\;g\;f\rparen {}\;=\;\mathsf {comp}_1\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;g\rparen {}\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv}{}^{\mathsf  M} \colon  \{X \;Y \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}_0\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {inv}_0\;f\rparen {}\;=\;\mathsf {inv}_1\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;f\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>23</fr:day>
+        </fr:date>
+        <fr:uri>https://genalg.info/Grpd.dalg</fr:uri>
+        <fr:display-uri>Grpd.dalg</fr:display-uri>
+        <fr:route>/Grpd.dalg</fr:route>
+        <fr:title text="Displayed Groupoids (\mathfrak {Grpd}{\operatorname -}\mathsf {DAlg})">Displayed Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}, \mathsf {Hom}, \mathsf {id}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  D} \colon  \mathsf {Obj} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;X{}^{\mathsf  D}\;\lparen {}\mathsf {id}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;g\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {lunit}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {id}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\rparen {}\;f{}^{\mathsf  D}\;=\;f{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {runit}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;\lparen {}\mathsf {id}{}^{\mathsf  D}\;X{}^{\mathsf  D}\rparen {}\;=\;f{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D} \colon  \{W \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{W{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;W\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{e \colon  \mathsf {Hom}\;W\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;W{}^{\mathsf  D}\;X{}^{\mathsf  D}\;e\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;g\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;g{}^{\mathsf  D}\;\lparen {}\mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;e{}^{\mathsf  D}\rparen {}\;=\;\mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {comp}{}^{\mathsf  D}\;g{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;e{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;X{}^{\mathsf  D}\;\lparen {}\mathsf {inv}\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {linv}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {inv}{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;f{}^{\mathsf  D}\;=\;\mathsf {id}{}^{\mathsf  D}\;X{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {rinv}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;\lparen {}\mathsf {inv}{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;=\;\mathsf {id}{}^{\mathsf  D}\;Y{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:date>
+          <fr:year>2026</fr:year>
+          <fr:month>5</fr:month>
+          <fr:day>23</fr:day>
+        </fr:date>
+        <fr:uri>https://genalg.info/Grpd.sect</fr:uri>
+        <fr:display-uri>Grpd.sect</fr:display-uri>
+        <fr:route>/Grpd.sect</fr:route>
+        <fr:title text="Sections of Displayed Groupoids (\mathfrak {Grpd}{\operatorname -}\mathsf {Sect})">Sections of Displayed Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title>
+        <fr:taxon>Definition</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}{}^{\mathsf  D}, \mathsf {Hom}{}^{\mathsf  D}, \mathsf {id}{}^{\mathsf  D}, \ldots )]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}, \mathsf {Hom}, \mathsf {id}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  S} \colon  \lparen {}X \colon  \mathsf {Obj}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Obj}{}^{\mathsf  D}\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  S} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;X\rparen {}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;Y\rparen {}\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  S} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {id}\;X\rparen {}\;=\;\mathsf {id}{}^{\mathsf  D}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  S} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}\;=\;\mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;g\rparen {}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv}{}^{\mathsf  S} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {inv}\;f\rparen {}\;=\;\mathsf {inv}{}^{\mathsf  D}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;f\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>27</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/categorical/</fr:uri>
+            <fr:display-uri>categorical</fr:display-uri>
+            <fr:route>/categorical/</fr:route>
+            <fr:title text="Categorical Structures">Categorical Structures</fr:title>
+            <fr:taxon>Index</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" expanded="false" toc="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Cat/</fr:uri>
+                <fr:display-uri>Cat</fr:display-uri>
+                <fr:route>/Cat/</fr:route>
+                <fr:title text="Categories (\mathfrak {Cat})">Categories (<fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>)</fr:title>
+                <fr:taxon>GAT</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Cat.sig</fr:uri>
+                    <fr:display-uri>Cat.sig</fr:display-uri>
+                    <fr:route>/Cat.sig</fr:route>
+                    <fr:title text="GAT signature: Categories (\mathfrak {Cat})">GAT signature: Categories (<fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>The GAT <fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex> is given by the signature
+<html:ul style="list-style-type:'▷  ';list-style-position: inside;">
+<html:li style="list-style-type:'◇';list-style-position: outside;" />
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {U}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;0\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;1\;\mathsf {U}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;1\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}1\;@\;0\;@\;0\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;2\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;3\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}4\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}5\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}6\;@\;4\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;3\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}4\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}3\;@\;2\;@\;1\;@\;1\;@\;\lparen {}4\;@\;1\rparen {}\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}5\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}4\;@\;2\;@\;2\;@\;1\;@\;0\;@\;\lparen {}5\;@\;2\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}8\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}9\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}10\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;6\;@\;4\;@\;3\;@\;0\;@\;\lparen {}9\;@\;6\;@\;5\;@\;4\;@\;1\;@\;2\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;6\;@\;5\;@\;3\;@\;\lparen {}9\;@\;5\;@\;4\;@\;3\;@\;0\;@\;1\rparen {}\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+</html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Cat.alg</fr:uri>
+                    <fr:display-uri>Cat.alg</fr:display-uri>
+                    <fr:route>/Cat.alg</fr:route>
+                    <fr:title text="Categories (\mathfrak {Cat}{\operatorname -}\mathsf {Alg})">Categories (<fr:tex display="inline"><![CDATA[\mathfrak {Cat}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom} \colon  \mathsf {Obj} \to  \mathsf {Obj} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id} \colon  \lparen {}X \colon  \mathsf {Obj}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;Y\;Z \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Hom}\;X\;Z]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {lunit} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;\lparen {}\mathsf {id}\;Y\rparen {}\;f\;=\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {runit} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;f\;\lparen {}\mathsf {id}\;X\rparen {}\;=\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc} \colon  \{W \;X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e \colon  \mathsf {Hom}\;W\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g \colon  \mathsf {Hom}\;Y\;Z\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;g\;\lparen {}\mathsf {comp}\;f\;e\rparen {}\;=\;\mathsf {comp}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}\;e]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Cat.hom</fr:uri>
+                    <fr:display-uri>Cat.hom</fr:display-uri>
+                    <fr:route>/Cat.hom</fr:route>
+                    <fr:title text="Functors (Homomorphisms of Categories;\mathfrak {Cat}{\operatorname -}\mathsf {Hom})">Functors (Homomorphisms of Categories;<fr:tex display="inline"><![CDATA[\mathfrak {Cat}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {Obj}_0, \mathsf {Hom}_0, \mathsf {id}_0, \ldots )]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {Obj}_1, \mathsf {Hom}_1, \mathsf {id}_1, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  M} \colon  \mathsf {Obj}_0 \to  \mathsf {Obj}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  M} \colon  \{X \;Y \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}_0\;X\;Y \to  \mathsf {Hom}_1\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;X\rparen {}\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;Y\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  M} \colon  \{X \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {id}_0\;X\rparen {}\;=\;\mathsf {id}_1\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  M} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}_0\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}_0\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {comp}_0\;g\;f\rparen {}\;=\;\mathsf {comp}_1\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;g\rparen {}\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;f\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Cat.dalg</fr:uri>
+                    <fr:display-uri>Cat.dalg</fr:display-uri>
+                    <fr:route>/Cat.dalg</fr:route>
+                    <fr:title text="Displayed Categories (\mathfrak {Cat}{\operatorname -}\mathsf {DAlg})">Displayed Categories (<fr:tex display="inline"><![CDATA[\mathfrak {Cat}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}, \mathsf {Hom}, \mathsf {id}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  D} \colon  \mathsf {Obj} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;X{}^{\mathsf  D}\;\lparen {}\mathsf {id}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;g\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {lunit}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {id}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\rparen {}\;f{}^{\mathsf  D}\;=\;f{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {runit}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;\lparen {}\mathsf {id}{}^{\mathsf  D}\;X{}^{\mathsf  D}\rparen {}\;=\;f{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D} \colon  \{W \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{W{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;W\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{e \colon  \mathsf {Hom}\;W\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;W{}^{\mathsf  D}\;X{}^{\mathsf  D}\;e\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;g\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;g{}^{\mathsf  D}\;\lparen {}\mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;e{}^{\mathsf  D}\rparen {}\;=\;\mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {comp}{}^{\mathsf  D}\;g{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;e{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Cat.sect</fr:uri>
+                    <fr:display-uri>Cat.sect</fr:display-uri>
+                    <fr:route>/Cat.sect</fr:route>
+                    <fr:title text="Sections of Displayed Categories (\mathfrak {Cat}{\operatorname -}\mathsf {Sect})">Sections of Displayed Categories (<fr:tex display="inline"><![CDATA[\mathfrak {Cat}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}{}^{\mathsf  D}, \mathsf {Hom}{}^{\mathsf  D}, \mathsf {id}{}^{\mathsf  D}, \ldots )]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {Cat}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}, \mathsf {Hom}, \mathsf {id}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  S} \colon  \lparen {}X \colon  \mathsf {Obj}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Obj}{}^{\mathsf  D}\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  S} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;X\rparen {}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;Y\rparen {}\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  S} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {id}\;X\rparen {}\;=\;\mathsf {id}{}^{\mathsf  D}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  S} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}\;=\;\mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;g\rparen {}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;f\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" expanded="false" toc="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Grpd/</fr:uri>
+                <fr:display-uri>Grpd</fr:display-uri>
+                <fr:route>/Grpd/</fr:route>
+                <fr:title text="Groupoids (\mathfrak {Grpd})">Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>)</fr:title>
+                <fr:taxon>GAT</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Grpd.sig</fr:uri>
+                    <fr:display-uri>Grpd.sig</fr:display-uri>
+                    <fr:route>/Grpd.sig</fr:route>
+                    <fr:title text="GAT signature: Groupoids (\mathfrak {Grpd})">GAT signature: Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>The GAT <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex> is given by the signature
+<html:ul style="list-style-type:'▷  ';list-style-position: inside;">
+<html:li style="list-style-type:'◇';list-style-position: outside;" />
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {U}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;0\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;1\;\mathsf {U}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;1\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}1\;@\;0\;@\;0\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;2\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;3\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}4\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}5\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}6\;@\;4\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;3\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}4\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}3\;@\;2\;@\;1\;@\;1\;@\;\lparen {}4\;@\;1\rparen {}\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;4\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}5\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}4\;@\;2\;@\;2\;@\;1\;@\;0\;@\;\lparen {}5\;@\;2\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}8\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}9\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}10\;@\;3\;@\;2\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;6\;@\;4\;@\;3\;@\;0\;@\;\lparen {}9\;@\;6\;@\;5\;@\;4\;@\;1\;@\;2\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;6\;@\;5\;@\;3\;@\;\lparen {}9\;@\;5\;@\;4\;@\;3\;@\;0\;@\;1\rparen {}\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}7\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}8\;@\;1\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}8\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;2\;@\;1\;@\;2\;@\;\lparen {}3\;@\;2\;@\;1\;@\;0\rparen {}\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}8\;@\;2\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;9\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;\lparen {}9\;@\;1\;@\;0\rparen {}\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}8\;@\;1\;@\;2\;@\;1\;@\;0\;@\;\lparen {}4\;@\;2\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}9\;@\;1\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+</html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Grpd.alg</fr:uri>
+                    <fr:display-uri>Grpd.alg</fr:display-uri>
+                    <fr:route>/Grpd.alg</fr:route>
+                    <fr:title text="Groupoids (\mathfrak {Grpd}{\operatorname -}\mathsf {Alg})">Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom} \colon  \mathsf {Obj} \to  \mathsf {Obj} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id} \colon  \lparen {}X \colon  \mathsf {Obj}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;Y\;Z \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Hom}\;X\;Z]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {lunit} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;\lparen {}\mathsf {id}\;Y\rparen {}\;f\;=\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {runit} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;f\;\lparen {}\mathsf {id}\;X\rparen {}\;=\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc} \colon  \{W \;X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e \colon  \mathsf {Hom}\;W\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g \colon  \mathsf {Hom}\;Y\;Z\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;g\;\lparen {}\mathsf {comp}\;f\;e\rparen {}\;=\;\mathsf {comp}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}\;e]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Hom}\;Y\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {linv} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;\lparen {}\mathsf {inv}\;f\rparen {}\;f\;=\;\mathsf {id}\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {rinv} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}\;f\;\lparen {}\mathsf {inv}\;f\rparen {}\;=\;\mathsf {id}\;Y]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Grpd.hom</fr:uri>
+                    <fr:display-uri>Grpd.hom</fr:display-uri>
+                    <fr:route>/Grpd.hom</fr:route>
+                    <fr:title text="Functors (Homomorphisms of Groupoids;\mathfrak {Grpd}{\operatorname -}\mathsf {Hom})">Functors (Homomorphisms of Groupoids;<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {Obj}_0, \mathsf {Hom}_0, \mathsf {id}_0, \ldots )]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {Obj}_1, \mathsf {Hom}_1, \mathsf {id}_1, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  M} \colon  \mathsf {Obj}_0 \to  \mathsf {Obj}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  M} \colon  \{X \;Y \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}_0\;X\;Y \to  \mathsf {Hom}_1\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;X\rparen {}\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;Y\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  M} \colon  \{X \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {id}_0\;X\rparen {}\;=\;\mathsf {id}_1\;\lparen {}\mathsf {Obj}{}^{\mathsf  M}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  M} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}_0\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}_0\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {comp}_0\;g\;f\rparen {}\;=\;\mathsf {comp}_1\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;g\rparen {}\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv}{}^{\mathsf  M} \colon  \{X \;Y \colon  \mathsf {Obj}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}_0\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  M}\;\lparen {}\mathsf {inv}_0\;f\rparen {}\;=\;\mathsf {inv}_1\;\lparen {}\mathsf {Hom}{}^{\mathsf  M}\;f\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Grpd.dalg</fr:uri>
+                    <fr:display-uri>Grpd.dalg</fr:display-uri>
+                    <fr:route>/Grpd.dalg</fr:route>
+                    <fr:title text="Displayed Groupoids (\mathfrak {Grpd}{\operatorname -}\mathsf {DAlg})">Displayed Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}, \mathsf {Hom}, \mathsf {id}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  D} \colon  \mathsf {Obj} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}\;X\;Y \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;X{}^{\mathsf  D}\;\lparen {}\mathsf {id}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;g\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {lunit}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {id}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\rparen {}\;f{}^{\mathsf  D}\;=\;f{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {runit}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;\lparen {}\mathsf {id}{}^{\mathsf  D}\;X{}^{\mathsf  D}\rparen {}\;=\;f{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D} \colon  \{W \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{W{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;W\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Z{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{e \colon  \mathsf {Hom}\;W\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;W{}^{\mathsf  D}\;X{}^{\mathsf  D}\;e\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}g{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;Z{}^{\mathsf  D}\;g\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;g{}^{\mathsf  D}\;\lparen {}\mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;e{}^{\mathsf  D}\rparen {}\;=\;\mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {comp}{}^{\mathsf  D}\;g{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;e{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;X{}^{\mathsf  D}\;\lparen {}\mathsf {inv}\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {linv}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {inv}{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;f{}^{\mathsf  D}\;=\;\mathsf {id}{}^{\mathsf  D}\;X{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {rinv}{}^{\mathsf  D} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{X{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;X\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{Y{}^{\mathsf  D} \colon  \mathsf {Obj}{}^{\mathsf  D}\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f{}^{\mathsf  D} \colon  \mathsf {Hom}{}^{\mathsf  D}\;X{}^{\mathsf  D}\;Y{}^{\mathsf  D}\;f\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {comp}{}^{\mathsf  D}\;f{}^{\mathsf  D}\;\lparen {}\mathsf {inv}{}^{\mathsf  D}\;f{}^{\mathsf  D}\rparen {}\;=\;\mathsf {id}{}^{\mathsf  D}\;Y{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <fr:tree show-metadata="false">
+                  <fr:frontmatter>
+                    <fr:authors />
+                    <fr:date>
+                      <fr:year>2026</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://genalg.info/Grpd.sect</fr:uri>
+                    <fr:display-uri>Grpd.sect</fr:display-uri>
+                    <fr:route>/Grpd.sect</fr:route>
+                    <fr:title text="Sections of Displayed Groupoids (\mathfrak {Grpd}{\operatorname -}\mathsf {Sect})">Sections of Displayed Groupoids (<fr:tex display="inline"><![CDATA[\mathfrak {Grpd}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title>
+                    <fr:taxon>Definition</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}{}^{\mathsf  D}, \mathsf {Hom}{}^{\mathsf  D}, \mathsf {id}{}^{\mathsf  D}, \ldots )]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {Grpd}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {Obj}, \mathsf {Hom}, \mathsf {id}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {Obj}{}^{\mathsf  S} \colon  \lparen {}X \colon  \mathsf {Obj}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Obj}{}^{\mathsf  D}\;X]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {Hom}{}^{\mathsf  S} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}f \colon  \mathsf {Hom}\;X\;Y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  D}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;X\rparen {}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;Y\rparen {}\;f]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {id}{}^{\mathsf  S} \colon  \{X \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {id}\;X\rparen {}\;=\;\mathsf {id}{}^{\mathsf  D}\;\lparen {}\mathsf {Obj}{}^{\mathsf  S}\;X\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {comp}{}^{\mathsf  S} \colon  \{X \;Y \;Z \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{g \colon  \mathsf {Hom}\;Y\;Z\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {comp}\;g\;f\rparen {}\;=\;\mathsf {comp}{}^{\mathsf  D}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;g\rparen {}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;f\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {inv}{}^{\mathsf  S} \colon  \{X \;Y \colon  \mathsf {Obj}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{f \colon  \mathsf {Hom}\;X\;Y\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {Hom}{}^{\mathsf  S}\;\lparen {}\mathsf {inv}\;f\rparen {}\;=\;\mathsf {inv}{}^{\mathsf  D}\;\lparen {}\mathsf {Hom}{}^{\mathsf  S}\;f\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

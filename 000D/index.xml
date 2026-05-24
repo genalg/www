@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://genalg.info/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:uri>https://genalg.info/000D/</fr:uri>
+    <fr:display-uri>000D</fr:display-uri>
+    <fr:route>/000D/</fr:route>
+    <fr:title text="Displayed semigroups of actions">Displayed semigroups of actions</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>Given a <fr:link href="/SemiGrp.alg" title="Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {Alg})" uri="https://genalg.info/SemiGrp.alg" display-uri="SemiGrp.alg" type="local">semigroup</fr:link> <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> and a set <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, define the <fr:link href="/SemiGrp.dalg" title="Displayed Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {DAlg})" uri="https://genalg.info/SemiGrp.dalg" display-uri="SemiGrp.dalg" type="local">displayed semigroups</fr:link> of actions of <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z]]></fr:tex> by putting <fr:tex display="block"><![CDATA[\mathsf {M}{}^{\mathsf  D}\;x := Z \to  Z ]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\colon \mathsf {M}]]></fr:tex>, and then obtain
+<html:ul><html:li>the displayed semigroup of <html:strong>left</html:strong> actions by putting <fr:tex display="block"><![CDATA[\mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;y{}^{\mathsf  D} := x{}^{\mathsf  D} \circ  y{}^{\mathsf  D} ]]></fr:tex></html:li>
+<html:li>the displayed semigroup of <html:strong>right</html:strong> actions by putting <fr:tex display="block"><![CDATA[\mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;y{}^{\mathsf  D} := y{}^{\mathsf  D} \circ  x{}^{\mathsf  D}. ]]></fr:tex></html:li></html:ul>
+In either case, <fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D}]]></fr:tex> is a consequence of the associativity of composition.</html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://genalg.info/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/0002/</fr:uri>
+            <fr:display-uri>0002</fr:display-uri>
+            <fr:route>/0002/</fr:route>
+            <fr:title text="The displayed (semigroup/monoid/group) of (semigroup/monoid/group) actions">The displayed (semigroup/monoid/group) of (semigroup/monoid/group) actions</fr:title>
+            <fr:taxon>Note</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>The notion of a <html:em>displayed algebra</html:em> does not seem to receive much (or any) recognition in the classical algebra literature (I couldn't find any references to "displayed monoids", "displayed groups", etc.). But displayed structures play a key role in the <html:em>generalized</html:em> algebra advocated here, so it's worth examining the displayed analogues of classical algebraic structures. I think the resulting notions are interesting, and deserve further study. </html:p>
+            <html:p>One important class of examples of displayed algebras are <html:strong>actions</html:strong>. The simplest case are the actions of semigroup on a set. Recall that a semigroup is just a set equipped with an associative binary operation:
+<fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2026</fr:year><fr:month>5</fr:month><fr:day>23</fr:day></fr:date><fr:uri>https://genalg.info/SemiGrp.alg</fr:uri><fr:display-uri>SemiGrp.alg</fr:display-uri><fr:route>/SemiGrp.alg</fr:route><fr:title text="Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {Alg})">Semigroups (<fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {M} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {m} \colon  \mathsf {M} \to  \mathsf {M} \to  \mathsf {M}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc} \colon  \lparen {}x \;y \;z \colon  \mathsf {M}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {m}\;x\;\lparen {}\mathsf {m}\;y\;z\rparen {}\;=\;\mathsf {m}\;\lparen {}\mathsf {m}\;x\;y\rparen {}\;z]]></fr:tex></html:li></html:ul></html:p></fr:mainmatter></fr:tree>
+Now, given a set <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, we define a (left) <html:em>action</html:em> of a semigroup <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z]]></fr:tex> as an operation (often written as an infix <fr:tex display="inline"><![CDATA[\bullet ]]></fr:tex>) <fr:tex display="block"><![CDATA[\_\bullet \_ \colon  \mathsf {M} \times  Z \to  Z ]]></fr:tex> which is compatible with the semigroup operation <fr:tex display="inline"><![CDATA[\mathsf {m}]]></fr:tex>: for all <fr:tex display="inline"><![CDATA[x,y\colon \mathsf {M}]]></fr:tex> and <fr:tex display="inline"><![CDATA[z\colon  Z]]></fr:tex>, <fr:tex display="block"><![CDATA[x \bullet  (y\bullet  z) = (\mathsf {m}\;x\;y) \bullet  z. ]]></fr:tex>There is also the notion of <html:em>right</html:em> action, where the semigroup elements "act on the right" (the <fr:tex display="inline"><![CDATA[\bullet ]]></fr:tex> has type <fr:tex display="inline"><![CDATA[Z\times \mathsf {M}\to  Z]]></fr:tex> instead, and the compatibility requirement is adjusted accordingly). This emergent <html:em>duality</html:em> is a feature of numerous GATs that include binary operations, most prominently <fr:link href="/Cat/" title="Categories (\mathfrak {Cat})" uri="https://genalg.info/Cat/" display-uri="Cat" type="local">categories</fr:link>. </html:p>
+            <html:p>What's the connection to displayed algebra? Well, it's rather elegant: for each semigroup <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> and set <fr:tex display="inline"><![CDATA[Z]]></fr:tex>: <html:strong>the <html:em>notion</html:em> of "action of <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z]]></fr:tex>" is a displayed semigroup over <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex>, and every such action is a section of this displayed semigroup</html:strong>.</html:p>
+            <html:p>Let's unpack this. A displayed semigroup over a semigroup <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> is a family of sets, indexed by <fr:tex display="inline"><![CDATA[\mathsf {M}]]></fr:tex>, with an associative <html:em>heterogeneous</html:em> binary relation <html:em>over</html:em> <fr:tex display="inline"><![CDATA[\mathsf {m}]]></fr:tex>. 
+<fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2026</fr:year><fr:month>5</fr:month><fr:day>23</fr:day></fr:date><fr:uri>https://genalg.info/SemiGrp.dalg</fr:uri><fr:display-uri>SemiGrp.dalg</fr:display-uri><fr:route>/SemiGrp.dalg</fr:route><fr:title text="Displayed Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {DAlg})">Displayed Semigroups (<fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {M}, \mathsf {m}, \mathsf {assoc})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {M}{}^{\mathsf  D} \colon  \mathsf {M} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {m}{}^{\mathsf  D} \colon  \{x \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}x{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;x\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{y \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}y{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {M}{}^{\mathsf  D}\;\lparen {}\mathsf {m}\;x\;y\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D} \colon  \{x \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}x{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;x\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{y \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}y{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{z \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}z{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;z\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;\lparen {}\mathsf {m}{}^{\mathsf  D}\;y{}^{\mathsf  D}\;z{}^{\mathsf  D}\rparen {}\;=\;\mathsf {m}{}^{\mathsf  D}\;\lparen {}\mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;y{}^{\mathsf  D}\rparen {}\;z{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p></fr:mainmatter></fr:tree>
+A section of <fr:tex display="inline"><![CDATA[(\mathsf {M}{}^{\mathsf  D},\mathsf {m}{}^{\mathsf  D})]]></fr:tex> is an assignment: to each <fr:tex display="inline"><![CDATA[x\colon \mathsf {M}]]></fr:tex>, an element of <fr:tex display="inline"><![CDATA[\mathsf {M}{}^{\mathsf  D}\;x]]></fr:tex>, appropriately compatible with <fr:tex display="inline"><![CDATA[\mathsf {m}]]></fr:tex> and <fr:tex display="inline"><![CDATA[\mathsf {m}{}^{\mathsf  D}]]></fr:tex>:
+<fr:tree show-metadata="false"><fr:frontmatter><fr:authors /><fr:date><fr:year>2026</fr:year><fr:month>5</fr:month><fr:day>23</fr:day></fr:date><fr:uri>https://genalg.info/SemiGrp.sect</fr:uri><fr:display-uri>SemiGrp.sect</fr:display-uri><fr:route>/SemiGrp.sect</fr:route><fr:title text="Sections of Displayed Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {Sect})">Sections of Displayed Semigroups (<fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {M}{}^{\mathsf  D}, \mathsf {m}{}^{\mathsf  D}, \mathsf {assoc}{}^{\mathsf  D})]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {M}, \mathsf {m}, \mathsf {assoc})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {M}{}^{\mathsf  S} \colon  \lparen {}x \colon  \mathsf {M}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {M}{}^{\mathsf  D}\;x]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {m}{}^{\mathsf  S} \colon  \{x \;y \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {M}{}^{\mathsf  S}\;\lparen {}\mathsf {m}\;x\;y\rparen {}\;=\;\mathsf {m}{}^{\mathsf  D}\;\lparen {}\mathsf {M}{}^{\mathsf  S}\;x\rparen {}\;\lparen {}\mathsf {M}{}^{\mathsf  S}\;y\rparen {}]]></fr:tex></html:li></html:ul></html:p></fr:mainmatter></fr:tree>
+We obtain the displayed semigroup of actions on <fr:tex display="inline"><![CDATA[Z]]></fr:tex> by putting <fr:tex display="inline"><![CDATA[\mathsf {M}{}^{\mathsf  D}\;x]]></fr:tex> to be the set of endofunctions <fr:tex display="inline"><![CDATA[Z\to  Z]]></fr:tex> for each <fr:tex display="inline"><![CDATA[x]]></fr:tex>.
+<fr:tree show-metadata="false"><fr:frontmatter><fr:authors><fr:author><fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://genalg.info/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link></fr:author></fr:authors><fr:date><fr:year>2026</fr:year><fr:month>5</fr:month><fr:day>2</fr:day></fr:date><fr:uri>https://genalg.info/000D/</fr:uri><fr:display-uri>000D</fr:display-uri><fr:route>/000D/</fr:route><fr:title text="Displayed semigroups of actions">Displayed semigroups of actions</fr:title><fr:taxon>Definition</fr:taxon></fr:frontmatter><fr:mainmatter><html:p>Given a <fr:link href="/SemiGrp.alg" title="Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {Alg})" uri="https://genalg.info/SemiGrp.alg" display-uri="SemiGrp.alg" type="local">semigroup</fr:link> <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> and a set <fr:tex display="inline"><![CDATA[Z]]></fr:tex>, define the <fr:link href="/SemiGrp.dalg" title="Displayed Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {DAlg})" uri="https://genalg.info/SemiGrp.dalg" display-uri="SemiGrp.dalg" type="local">displayed semigroups</fr:link> of actions of <fr:tex display="inline"><![CDATA[(\mathsf {M},\mathsf {m})]]></fr:tex> on <fr:tex display="inline"><![CDATA[Z]]></fr:tex> by putting <fr:tex display="block"><![CDATA[\mathsf {M}{}^{\mathsf  D}\;x := Z \to  Z ]]></fr:tex> for all <fr:tex display="inline"><![CDATA[x\colon \mathsf {M}]]></fr:tex>, and then obtain
+<html:ul><html:li>the displayed semigroup of <html:strong>left</html:strong> actions by putting <fr:tex display="block"><![CDATA[\mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;y{}^{\mathsf  D} := x{}^{\mathsf  D} \circ  y{}^{\mathsf  D} ]]></fr:tex></html:li>
+<html:li>the displayed semigroup of <html:strong>right</html:strong> actions by putting <fr:tex display="block"><![CDATA[\mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;y{}^{\mathsf  D} := y{}^{\mathsf  D} \circ  x{}^{\mathsf  D}. ]]></fr:tex></html:li></html:ul>
+In either case, <fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D}]]></fr:tex> is a consequence of the associativity of composition.</html:p></fr:mainmatter></fr:tree></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/SemiGrp.dalg</fr:uri>
+            <fr:display-uri>SemiGrp.dalg</fr:display-uri>
+            <fr:route>/SemiGrp.dalg</fr:route>
+            <fr:title text="Displayed Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {DAlg})">Displayed Semigroups (<fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {M}, \mathsf {m}, \mathsf {assoc})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {M}{}^{\mathsf  D} \colon  \mathsf {M} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {m}{}^{\mathsf  D} \colon  \{x \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}x{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;x\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{y \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}y{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {M}{}^{\mathsf  D}\;\lparen {}\mathsf {m}\;x\;y\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc}{}^{\mathsf  D} \colon  \{x \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}x{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;x\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{y \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}y{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;y\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{z \colon  \mathsf {M}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}z{}^{\mathsf  D} \colon  \mathsf {M}{}^{\mathsf  D}\;z\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;\lparen {}\mathsf {m}{}^{\mathsf  D}\;y{}^{\mathsf  D}\;z{}^{\mathsf  D}\rparen {}\;=\;\mathsf {m}{}^{\mathsf  D}\;\lparen {}\mathsf {m}{}^{\mathsf  D}\;x{}^{\mathsf  D}\;y{}^{\mathsf  D}\rparen {}\;z{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/SemiGrp.alg</fr:uri>
+            <fr:display-uri>SemiGrp.alg</fr:display-uri>
+            <fr:route>/SemiGrp.alg</fr:route>
+            <fr:title text="Semigroups (\mathfrak {SemiGrp}{\operatorname -}\mathsf {Alg})">Semigroups (<fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+            <fr:taxon>Definition</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {SemiGrp}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {M} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {m} \colon  \mathsf {M} \to  \mathsf {M} \to  \mathsf {M}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {assoc} \colon  \lparen {}x \;y \;z \colon  \mathsf {M}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {m}\;x\;\lparen {}\mathsf {m}\;y\;z\rparen {}\;=\;\mathsf {m}\;\lparen {}\mathsf {m}\;x\;y\rparen {}\;z]]></fr:tex></html:li></html:ul></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

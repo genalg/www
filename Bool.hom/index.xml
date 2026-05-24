@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>23</fr:day>
+    </fr:date>
+    <fr:uri>https://genalg.info/Bool.hom</fr:uri>
+    <fr:display-uri>Bool.hom</fr:display-uri>
+    <fr:route>/Bool.hom</fr:route>
+    <fr:title text="Homomorphisms of Boolean Algebras (\mathfrak {Bool}{\operatorname -}\mathsf {Hom})">Homomorphisms of Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {A}_0, \mathsf {meet}_0, \mathsf {join}_0, \ldots )]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {A}_1, \mathsf {meet}_1, \mathsf {join}_1, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {A}{}^{\mathsf  M} \colon  \mathsf {A}_0 \to  \mathsf {A}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meet}{}^{\mathsf  M} \colon  \{a \;b \colon  \mathsf {A}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  M}\;\lparen {}\mathsf {meet}_0\;a\;b\rparen {}\;=\;\mathsf {meet}_1\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;a\rparen {}\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {join}{}^{\mathsf  M} \colon  \{a \;b \colon  \mathsf {A}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  M}\;\lparen {}\mathsf {join}_0\;a\;b\rparen {}\;=\;\mathsf {join}_1\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;a\rparen {}\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {not}{}^{\mathsf  M} \colon  \{a \colon  \mathsf {A}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  M}\;\lparen {}\mathsf {not}_0\;a\rparen {}\;=\;\mathsf {not}_1\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;a\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {top}{}^{\mathsf  M} \colon  \mathsf {A}{}^{\mathsf  M}\;\mathsf {top}_0\;=\;\mathsf {top}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {bot}{}^{\mathsf  M} \colon  \mathsf {A}{}^{\mathsf  M}\;\mathsf {bot}_0\;=\;\mathsf {bot}_1]]></fr:tex></html:li></html:ul></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/Bool/</fr:uri>
+            <fr:display-uri>Bool</fr:display-uri>
+            <fr:route>/Bool/</fr:route>
+            <fr:title text="Boolean Algebras (\mathfrak {Bool})">Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>)</fr:title>
+            <fr:taxon>GAT</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Bool.sig</fr:uri>
+                <fr:display-uri>Bool.sig</fr:display-uri>
+                <fr:route>/Bool.sig</fr:route>
+                <fr:title text="GAT signature: Boolean Algebras (\mathfrak {Bool})">GAT signature: Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The GAT <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex> is given by the signature
+<html:ul style="list-style-type:'▷  ';list-style-position: inside;">
+<html:li style="list-style-type:'◇';list-style-position: outside;" />
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {U}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;0\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;1\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;2\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;1\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;2\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;3\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;2\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;3\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {El}\;3]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {El}\;4]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;5\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;2\;@\;\lparen {}7\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;\lparen {}7\;@\;2\;@\;1\rparen {}\;@\;0\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;6\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;1\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;0\;@\;1\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;7\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}7\;@\;0\;@\;4\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;8\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}8\;@\;0\;@\;\lparen {}6\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;4\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;9\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;10\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;11\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}10\;@\;2\;@\;\lparen {}10\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}10\;@\;\lparen {}10\;@\;2\;@\;1\rparen {}\;@\;0\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;10\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;11\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}10\;@\;1\;@\;0\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}10\;@\;0\;@\;1\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;11\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}10\;@\;0\;@\;7\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;0\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;12\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}11\;@\;0\;@\;\lparen {}10\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;9\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;13\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;14\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;15\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}15\;@\;2\;@\;\lparen {}14\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}14\;@\;\lparen {}15\;@\;2\;@\;1\rparen {}\;@\;\lparen {}15\;@\;2\;@\;0\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;14\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;15\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;16\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}15\;@\;2\;@\;\lparen {}16\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}16\;@\;\lparen {}15\;@\;2\;@\;1\rparen {}\;@\;\lparen {}15\;@\;2\;@\;0\rparen {}\rparen {}\rparen {}\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;15\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;16\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}16\;@\;1\;@\;\lparen {}15\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;1\rparen {}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;16\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;17\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {Eq}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;\lparen {}16\;@\;1\;@\;\lparen {}17\;@\;1\;@\;0\rparen {}\rparen {}\;]]></fr:tex> <fr:tex display="inline"><![CDATA[\;1\rparen {}\rparen {}]]></fr:tex></html:li>
+</html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Bool.alg</fr:uri>
+                <fr:display-uri>Bool.alg</fr:display-uri>
+                <fr:route>/Bool.alg</fr:route>
+                <fr:title text="Boolean Algebras (\mathfrak {Bool}{\operatorname -}\mathsf {Alg})">Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {A} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meet} \colon  \mathsf {A} \to  \mathsf {A} \to  \mathsf {A}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {join} \colon  \mathsf {A} \to  \mathsf {A} \to  \mathsf {A}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {not} \colon  \mathsf {A} \to  \mathsf {A}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {top} \colon  \mathsf {A}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {bot} \colon  \mathsf {A}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetAssoc} \colon  \{a \;b \;c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}\;a\;\lparen {}\mathsf {meet}\;b\;c\rparen {}\;=\;\mathsf {meet}\;\lparen {}\mathsf {meet}\;a\;b\rparen {}\;c]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetComm} \colon  \{a \;b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}\;a\;b\;=\;\mathsf {meet}\;b\;a]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetIdent} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}\;a\;\mathsf {top}\;=\;a]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetCompl} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}\;a\;\lparen {}\mathsf {not}\;a\rparen {}\;=\;\mathsf {bot}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinAssoc} \colon  \{a \;b \;c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}\;a\;\lparen {}\mathsf {join}\;b\;c\rparen {}\;=\;\mathsf {join}\;\lparen {}\mathsf {join}\;a\;b\rparen {}\;c]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinComm} \colon  \{a \;b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}\;a\;b\;=\;\mathsf {join}\;b\;a]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinIdent} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}\;a\;\mathsf {bot}\;=\;a]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinCompl} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}\;a\;\lparen {}\mathsf {not}\;a\rparen {}\;=\;\mathsf {top}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {distr}_1 \colon  \{a \;b \;c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}\;a\;\lparen {}\mathsf {join}\;b\;c\rparen {}\;=\;\mathsf {join}\;\lparen {}\mathsf {meet}\;a\;b\rparen {}\;\lparen {}\mathsf {meet}\;a\;c\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {distr}_2 \colon  \{a \;b \;c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}\;a\;\lparen {}\mathsf {meet}\;b\;c\rparen {}\;=\;\mathsf {meet}\;\lparen {}\mathsf {join}\;a\;b\rparen {}\;\lparen {}\mathsf {join}\;a\;c\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {absorb}_1 \colon  \{a \;b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}\;a\;\lparen {}\mathsf {join}\;a\;b\rparen {}\;=\;a]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {absorb}_2 \colon  \{a \;b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}\;a\;\lparen {}\mathsf {meet}\;a\;b\rparen {}\;=\;a]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Bool.hom</fr:uri>
+                <fr:display-uri>Bool.hom</fr:display-uri>
+                <fr:route>/Bool.hom</fr:route>
+                <fr:title text="Homomorphisms of Boolean Algebras (\mathfrak {Bool}{\operatorname -}\mathsf {Hom})">Homomorphisms of Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {A}_0, \mathsf {meet}_0, \mathsf {join}_0, \ldots )]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {A}_1, \mathsf {meet}_1, \mathsf {join}_1, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {A}{}^{\mathsf  M} \colon  \mathsf {A}_0 \to  \mathsf {A}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meet}{}^{\mathsf  M} \colon  \{a \;b \colon  \mathsf {A}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  M}\;\lparen {}\mathsf {meet}_0\;a\;b\rparen {}\;=\;\mathsf {meet}_1\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;a\rparen {}\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {join}{}^{\mathsf  M} \colon  \{a \;b \colon  \mathsf {A}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  M}\;\lparen {}\mathsf {join}_0\;a\;b\rparen {}\;=\;\mathsf {join}_1\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;a\rparen {}\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {not}{}^{\mathsf  M} \colon  \{a \colon  \mathsf {A}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  M}\;\lparen {}\mathsf {not}_0\;a\rparen {}\;=\;\mathsf {not}_1\;\lparen {}\mathsf {A}{}^{\mathsf  M}\;a\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {top}{}^{\mathsf  M} \colon  \mathsf {A}{}^{\mathsf  M}\;\mathsf {top}_0\;=\;\mathsf {top}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {bot}{}^{\mathsf  M} \colon  \mathsf {A}{}^{\mathsf  M}\;\mathsf {bot}_0\;=\;\mathsf {bot}_1]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Bool.dalg</fr:uri>
+                <fr:display-uri>Bool.dalg</fr:display-uri>
+                <fr:route>/Bool.dalg</fr:route>
+                <fr:title text="Displayed Boolean Algebras (\mathfrak {Bool}{\operatorname -}\mathsf {DAlg})">Displayed Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {A}, \mathsf {meet}, \mathsf {join}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {A}{}^{\mathsf  D} \colon  \mathsf {A} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meet}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  D}\;\lparen {}\mathsf {meet}\;a\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {join}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  D}\;\lparen {}\mathsf {join}\;a\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {not}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  D}\;\lparen {}\mathsf {not}\;a\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {top}{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;\mathsf {top}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {bot}{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;\mathsf {bot}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetAssoc}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;c\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {meet}{}^{\mathsf  D}\;b{}^{\mathsf  D}\;c{}^{\mathsf  D}\rparen {}\;=\;\mathsf {meet}{}^{\mathsf  D}\;\lparen {}\mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\rparen {}\;c{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetComm}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\;=\;\mathsf {meet}{}^{\mathsf  D}\;b{}^{\mathsf  D}\;a{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetIdent}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\mathsf {top}{}^{\mathsf  D}\;=\;a{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meetCompl}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {not}{}^{\mathsf  D}\;a{}^{\mathsf  D}\rparen {}\;=\;\mathsf {bot}{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinAssoc}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;c\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {join}{}^{\mathsf  D}\;b{}^{\mathsf  D}\;c{}^{\mathsf  D}\rparen {}\;=\;\mathsf {join}{}^{\mathsf  D}\;\lparen {}\mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\rparen {}\;c{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinComm}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\;=\;\mathsf {join}{}^{\mathsf  D}\;b{}^{\mathsf  D}\;a{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinIdent}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\mathsf {bot}{}^{\mathsf  D}\;=\;a{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {joinCompl}{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {not}{}^{\mathsf  D}\;a{}^{\mathsf  D}\rparen {}\;=\;\mathsf {top}{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {distr}_1{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;c\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {join}{}^{\mathsf  D}\;b{}^{\mathsf  D}\;c{}^{\mathsf  D}\rparen {}\;=\;\mathsf {join}{}^{\mathsf  D}\;\lparen {}\mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\rparen {}\;\lparen {}\mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;c{}^{\mathsf  D}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {distr}_2{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{c{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;c\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {meet}{}^{\mathsf  D}\;b{}^{\mathsf  D}\;c{}^{\mathsf  D}\rparen {}\;=\;\mathsf {meet}{}^{\mathsf  D}\;\lparen {}\mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\rparen {}\;\lparen {}\mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;c{}^{\mathsf  D}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {absorb}_1{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\rparen {}\;=\;a{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {absorb}_2{}^{\mathsf  D} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{a{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;a\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{b{}^{\mathsf  D} \colon  \mathsf {A}{}^{\mathsf  D}\;b\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {join}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;\lparen {}\mathsf {meet}{}^{\mathsf  D}\;a{}^{\mathsf  D}\;b{}^{\mathsf  D}\rparen {}\;=\;a{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/Bool.sect</fr:uri>
+                <fr:display-uri>Bool.sect</fr:display-uri>
+                <fr:route>/Bool.sect</fr:route>
+                <fr:title text="Sections of Displayed Boolean Algebras (\mathfrak {Bool}{\operatorname -}\mathsf {Sect})">Sections of Displayed Boolean Algebras (<fr:tex display="inline"><![CDATA[\mathfrak {Bool}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {A}{}^{\mathsf  D}, \mathsf {meet}{}^{\mathsf  D}, \mathsf {join}{}^{\mathsf  D}, \ldots )]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {Bool}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {A}, \mathsf {meet}, \mathsf {join}, \ldots )]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {A}{}^{\mathsf  S} \colon  \lparen {}a \colon  \mathsf {A}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  D}\;a]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {meet}{}^{\mathsf  S} \colon  \{a \;b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  S}\;\lparen {}\mathsf {meet}\;a\;b\rparen {}\;=\;\mathsf {meet}{}^{\mathsf  D}\;\lparen {}\mathsf {A}{}^{\mathsf  S}\;a\rparen {}\;\lparen {}\mathsf {A}{}^{\mathsf  S}\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {join}{}^{\mathsf  S} \colon  \{a \;b \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  S}\;\lparen {}\mathsf {join}\;a\;b\rparen {}\;=\;\mathsf {join}{}^{\mathsf  D}\;\lparen {}\mathsf {A}{}^{\mathsf  S}\;a\rparen {}\;\lparen {}\mathsf {A}{}^{\mathsf  S}\;b\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {not}{}^{\mathsf  S} \colon  \{a \colon  \mathsf {A}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {A}{}^{\mathsf  S}\;\lparen {}\mathsf {not}\;a\rparen {}\;=\;\mathsf {not}{}^{\mathsf  D}\;\lparen {}\mathsf {A}{}^{\mathsf  S}\;a\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {top}{}^{\mathsf  S} \colon  \mathsf {A}{}^{\mathsf  S}\;\mathsf {top}\;=\;\mathsf {top}{}^{\mathsf  D}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {bot}{}^{\mathsf  S} \colon  \mathsf {A}{}^{\mathsf  S}\;\mathsf {bot}\;=\;\mathsf {bot}{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

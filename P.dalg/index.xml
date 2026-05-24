@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>23</fr:day>
+    </fr:date>
+    <fr:uri>https://genalg.info/P.dalg</fr:uri>
+    <fr:display-uri>P.dalg</fr:display-uri>
+    <fr:route>/P.dalg</fr:route>
+    <fr:title text="Displayed Pointed Sets (\mathfrak {P}{\operatorname -}\mathsf {DAlg})">Displayed Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {X}, \mathsf {x})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {X}{}^{\mathsf  D} \colon  \mathsf {X} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {x}{}^{\mathsf  D} \colon  \mathsf {X}{}^{\mathsf  D}\;\mathsf {x}]]></fr:tex></html:li></html:ul></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/P/</fr:uri>
+            <fr:display-uri>P</fr:display-uri>
+            <fr:route>/P/</fr:route>
+            <fr:title text="Pointed Sets (\mathfrak {P})">Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>)</fr:title>
+            <fr:taxon>GAT</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/P.sig</fr:uri>
+                <fr:display-uri>P.sig</fr:display-uri>
+                <fr:route>/P.sig</fr:route>
+                <fr:title text="GAT signature: Pointed Sets (\mathfrak {P})">GAT signature: Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The GAT <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex> is given by the signature
+<html:ul style="list-style-type:'▷  ';list-style-position: inside;">
+<html:li style="list-style-type:'◇';list-style-position: outside;" />
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {U}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {El}\;0]]></fr:tex></html:li>
+</html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/P.alg</fr:uri>
+                <fr:display-uri>P.alg</fr:display-uri>
+                <fr:route>/P.alg</fr:route>
+                <fr:title text="Pointed Sets (\mathfrak {P}{\operatorname -}\mathsf {Alg})">Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {X} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {x} \colon  \mathsf {X}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/P.hom</fr:uri>
+                <fr:display-uri>P.hom</fr:display-uri>
+                <fr:route>/P.hom</fr:route>
+                <fr:title text="Homomorphisms of Pointed Sets (\mathfrak {P}{\operatorname -}\mathsf {Hom})">Homomorphisms of Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {X}_0, \mathsf {x}_0)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {X}_1, \mathsf {x}_1)]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {X}{}^{\mathsf  M} \colon  \mathsf {X}_0 \to  \mathsf {X}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {x}{}^{\mathsf  M} \colon  \mathsf {X}{}^{\mathsf  M}\;\mathsf {x}_0\;=\;\mathsf {x}_1]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/P.dalg</fr:uri>
+                <fr:display-uri>P.dalg</fr:display-uri>
+                <fr:route>/P.dalg</fr:route>
+                <fr:title text="Displayed Pointed Sets (\mathfrak {P}{\operatorname -}\mathsf {DAlg})">Displayed Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {X}, \mathsf {x})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {X}{}^{\mathsf  D} \colon  \mathsf {X} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {x}{}^{\mathsf  D} \colon  \mathsf {X}{}^{\mathsf  D}\;\mathsf {x}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/P.sect</fr:uri>
+                <fr:display-uri>P.sect</fr:display-uri>
+                <fr:route>/P.sect</fr:route>
+                <fr:title text="Sections of Displayed Pointed Sets (\mathfrak {P}{\operatorname -}\mathsf {Sect})">Sections of Displayed Pointed Sets (<fr:tex display="inline"><![CDATA[\mathfrak {P}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {X}{}^{\mathsf  D}, \mathsf {x}{}^{\mathsf  D})]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {P}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {X}, \mathsf {x})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {X}{}^{\mathsf  S} \colon  \lparen {}z \colon  \mathsf {X}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {X}{}^{\mathsf  D}\;z]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {x}{}^{\mathsf  S} \colon  \mathsf {X}{}^{\mathsf  S}\;\mathsf {x}\;=\;\mathsf {x}{}^{\mathsf  D}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors />
+    <fr:date>
+      <fr:year>2026</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>23</fr:day>
+    </fr:date>
+    <fr:uri>https://genalg.info/rQuiv.dalg</fr:uri>
+    <fr:display-uri>rQuiv.dalg</fr:display-uri>
+    <fr:route>/rQuiv.dalg</fr:route>
+    <fr:title text="Displayed Reflexive Quivers (\mathfrak {rQuiv}{\operatorname -}\mathsf {DAlg})">Displayed Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+    <fr:taxon>Definition</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {V}, \mathsf {E}, \mathsf {r})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {V}{}^{\mathsf  D} \colon  \mathsf {V} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {E}{}^{\mathsf  D} \colon  \{v \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}v{}^{\mathsf  D} \colon  \mathsf {V}{}^{\mathsf  D}\;v\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{w \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}w{}^{\mathsf  D} \colon  \mathsf {V}{}^{\mathsf  D}\;w\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}\;v\;w \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {r}{}^{\mathsf  D} \colon  \{v \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}v{}^{\mathsf  D} \colon  \mathsf {V}{}^{\mathsf  D}\;v\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}{}^{\mathsf  D}\;v{}^{\mathsf  D}\;v{}^{\mathsf  D}\;\lparen {}\mathsf {r}\;v\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors />
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://genalg.info/rQuiv/</fr:uri>
+            <fr:display-uri>rQuiv</fr:display-uri>
+            <fr:route>/rQuiv/</fr:route>
+            <fr:title text="Reflexive Quivers (\mathfrak {rQuiv})">Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>)</fr:title>
+            <fr:taxon>GAT</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/rQuiv.sig</fr:uri>
+                <fr:display-uri>rQuiv.sig</fr:display-uri>
+                <fr:route>/rQuiv.sig</fr:route>
+                <fr:title text="GAT signature: Reflexive Quivers (\mathfrak {rQuiv})">GAT signature: Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>The GAT <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex> is given by the signature
+<html:ul style="list-style-type:'▷  ';list-style-position: inside;">
+<html:li style="list-style-type:'◇';list-style-position: outside;" />
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {U}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;0\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\Pi \;1\;\mathsf {U}\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\Pi \;1\;\lparen {}]]></fr:tex><fr:tex display="inline"><![CDATA[\mathsf {El}\;\lparen {}1\;@\;0\;@\;0\rparen {}\rparen {}]]></fr:tex></html:li>
+</html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/rQuiv.alg</fr:uri>
+                <fr:display-uri>rQuiv.alg</fr:display-uri>
+                <fr:route>/rQuiv.alg</fr:route>
+                <fr:title text="Reflexive Quivers (\mathfrak {rQuiv}{\operatorname -}\mathsf {Alg})">Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}{\operatorname -}\mathsf {Alg}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong><fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra</html:strong> consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {V} \colon  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {E} \colon  \mathsf {V} \to  \mathsf {V} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {r} \colon  \lparen {}v \colon  \mathsf {V}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}\;v\;v]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/rQuiv.hom</fr:uri>
+                <fr:display-uri>rQuiv.hom</fr:display-uri>
+                <fr:route>/rQuiv.hom</fr:route>
+                <fr:title text="Homomorphisms of Reflexive Quivers (\mathfrak {rQuiv}{\operatorname -}\mathsf {Hom})">Homomorphisms of Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}{\operatorname -}\mathsf {Hom}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>homomorphism</html:strong> of <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebras (from <fr:tex display="inline"><![CDATA[(\mathsf {V}_0, \mathsf {E}_0, \mathsf {r}_0)]]></fr:tex> to <fr:tex display="inline"><![CDATA[(\mathsf {V}_1, \mathsf {E}_1, \mathsf {r}_1)]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {V}{}^{\mathsf  M} \colon  \mathsf {V}_0 \to  \mathsf {V}_1]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {E}{}^{\mathsf  M} \colon  \{v \;w \colon  \mathsf {V}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}_0\;v\;w \to  \mathsf {E}_1\;\lparen {}\mathsf {V}{}^{\mathsf  M}\;v\rparen {}\;\lparen {}\mathsf {V}{}^{\mathsf  M}\;w\rparen {}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {r}{}^{\mathsf  M} \colon  \{v \colon  \mathsf {V}_0\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}{}^{\mathsf  M}\;\lparen {}\mathsf {r}_0\;v\rparen {}\;=\;\mathsf {r}_1\;\lparen {}\mathsf {V}{}^{\mathsf  M}\;v\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/rQuiv.dalg</fr:uri>
+                <fr:display-uri>rQuiv.dalg</fr:display-uri>
+                <fr:route>/rQuiv.dalg</fr:route>
+                <fr:title text="Displayed Reflexive Quivers (\mathfrak {rQuiv}{\operatorname -}\mathsf {DAlg})">Displayed Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}{\operatorname -}\mathsf {DAlg}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>displayed <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra</html:strong> 
+(over a <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {V}, \mathsf {E}, \mathsf {r})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {V}{}^{\mathsf  D} \colon  \mathsf {V} \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {E}{}^{\mathsf  D} \colon  \{v \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}v{}^{\mathsf  D} \colon  \mathsf {V}{}^{\mathsf  D}\;v\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[\{w \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}w{}^{\mathsf  D} \colon  \mathsf {V}{}^{\mathsf  D}\;w\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}\;v\;w \to  \mathsf {Set}]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {r}{}^{\mathsf  D} \colon  \{v \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}v{}^{\mathsf  D} \colon  \mathsf {V}{}^{\mathsf  D}\;v\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}{}^{\mathsf  D}\;v{}^{\mathsf  D}\;v{}^{\mathsf  D}\;\lparen {}\mathsf {r}\;v\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:date>
+                  <fr:year>2026</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://genalg.info/rQuiv.sect</fr:uri>
+                <fr:display-uri>rQuiv.sect</fr:display-uri>
+                <fr:route>/rQuiv.sect</fr:route>
+                <fr:title text="Sections of Displayed Reflexive Quivers (\mathfrak {rQuiv}{\operatorname -}\mathsf {Sect})">Sections of Displayed Reflexive Quivers (<fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}{\operatorname -}\mathsf {Sect}]]></fr:tex>)</fr:title>
+                <fr:taxon>Definition</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>A <html:strong>section</html:strong> of a displayed <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {V}{}^{\mathsf  D}, \mathsf {E}{}^{\mathsf  D}, \mathsf {r}{}^{\mathsf  D})]]></fr:tex> (over a <fr:tex display="inline"><![CDATA[\mathfrak {rQuiv}]]></fr:tex>-algebra <fr:tex display="inline"><![CDATA[(\mathsf {V}, \mathsf {E}, \mathsf {r})]]></fr:tex>)
+consists of
+<html:ul><html:li><fr:tex display="inline"><![CDATA[\mathsf {V}{}^{\mathsf  S} \colon  \lparen {}v \colon  \mathsf {V}\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {V}{}^{\mathsf  D}\;v]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {E}{}^{\mathsf  S} \colon  \{v \;w \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[\lparen {}e \colon  \mathsf {E}\;v\;w\rparen {}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}{}^{\mathsf  D}\;\lparen {}\mathsf {V}{}^{\mathsf  S}\;v\rparen {}\;\lparen {}\mathsf {V}{}^{\mathsf  S}\;w\rparen {}\;e]]></fr:tex></html:li>
+<html:li><fr:tex display="inline"><![CDATA[\mathsf {r}{}^{\mathsf  S} \colon  \{v \colon  \mathsf {V}\}]]></fr:tex> <fr:tex display="inline"><![CDATA[ \to  \mathsf {E}{}^{\mathsf  S}\;\lparen {}\mathsf {r}\;v\rparen {}\;=\;\mathsf {r}{}^{\mathsf  D}\;\lparen {}\mathsf {V}{}^{\mathsf  S}\;v\rparen {}]]></fr:tex></html:li></html:ul></html:p>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
